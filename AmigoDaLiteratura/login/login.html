@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="svg/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <section>
+            <article>
+                <h1>Login</h1>
+                <form id="form" action="#">
+                    <div class="input">
+                        <p>Nome Completo</p>
+                        <div class="svg">
+                            <input type="text" name="text" class="required" oninput="nameValidate()">
+                            <p class="obrigatorio">O nome deve ter mais de 3 dígitos</p>
+                        </div>
+                    </div>
+                    <div class="input">
+                        <p>E-mail</p>
+                        <div class="svg">
+                            <input type="text" name="email" class="required" oninput="emailValidate()">
+                            <p class="obrigatorio">Digite um email válido</p>
+                        </div>
+                    </div>
+                    <button id="btn" type="submit">Login</button>
+                </form>
+                <div class="underline"></div>
+            </article>
+            <span>
+                <h3>Acesse com outra conta diferente</h3>
+            </span>
+            <div class="icons">
+                <img class="icon" src="icons/google-logo.png" alt="">
+                <img class="icon" src="icons/Facebook-logo.png" alt="">
+                <img class="icon" src="icons/Instagram_icon.png.webp" alt="">
+                <img class="icon" src="icons/twitter-logo.png" alt="">
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

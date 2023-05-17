@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgba(115, 3, 190, 0.815), rgba(17, 0, 29, 0.973));
+    font-family: 'Inter', sans-serif;
+}
+section article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+span{
+    color: #fff;
+    margin: 30px;
+    font-size: 30px;
+}
+section nav{
+    gap: 500px;
+    display: flex;
+    flex-direction: row;
+}
+section nav button{
+    border: none;
+    width: 350px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #E5DDF3;
+}
+section nav button a{
+    align-items: center;
+    text-decoration: none;
+}
+@media screen and (max-width: 750px) {
+    body{
+        height: 100vh;
+        width: 100vw;
+    }
+    section nav{
+        gap: 10px;
+        height: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        margin-top: 50px;
+        width: 80vw;
+    }
+    
+}
+@media screen and (max-width: 654px){
+    body{
+        height: 100vh;
+        width: 100vw;
+    }
+    section nav{
+        gap: 10px;
+        height: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        margin-top: 50px;
+        width: 90vw;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    body{
+        height: 100vh;
+        width: 100vw;
+    }
+    section nav{
+        gap: 10px;
+        height: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        margin-top: 50px;
+        width: 90vw;
+    }
+    
+}

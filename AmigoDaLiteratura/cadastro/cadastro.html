@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="svg/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <main>
+        <section>
+            <article>
+                <h1>Cadastro</h1>
+                <form id="form" action="#" method="post">
+                    <div class="input">
+                        <p>Nome completo</p>
+                        <input class="required" type="text" oninput="nameValidate()">
+                        <span class="obrigatorio">O nome deve ter mais de 3 dígitos</span>
+                        <p>E-mail</p>
+                        <input class="required" type="text" name="email" oninput="emailValidate()">
+                        <span class="obrigatorio">Digite um email válido</span>
+                        <p>Crie uma senha</p>
+                        <input class="required" type="password" name="password" oninput="mainPasswordValidate()">
+                        <span class="obrigatorio">Digite uma senha válida</span>
+                        <p>Confirmar senha</p>
+                        <input class="required" type="password" oninput="comparePassword()">
+                        <span class="obrigatorio">Senha não compatível</span>
+                    </div>
+                <button id="btn" type="submit">Cadastro</button>
+                </form>
+                <div class="underline"></div>
+            </article>
+            <span>
+                <h3>Acesse com outra conta diferente</h3>
+            </span>
+            <div class="icons">
+                <img class="icon" src="icons/google-logo.png" alt="Logo do google">
+                <img class="icon" src="icons/Facebook-logo.png" alt="Logo do Facebook">
+                <img class="icon" src="icons/Instagram_icon.png.webp" alt="Logo do Instagram">
+                <img class="icon" src="icons/twitter-logo.png" alt="Logo do Twitter">
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
