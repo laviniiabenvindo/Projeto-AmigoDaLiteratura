@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Administração</title>
+</head>
+
+<body>
+    <header></header>
+    <article class="adl">
+        <h1>GERENCIMENTO</h1>
+    </article>
+
+    <section class="camera">
+        <article class="box-camera">
+            <img src="./svg/camera.svg">
+        </article>
+        <div class="np">
+            <p>@nome.faclube</p>
+            <p>N° seguidores</p>
+        </div>
+    </section>
+    <section class="graficos">
+        <section class="carteiras">
+            <article>
+              <p>Carteira</p>  
+            </article>
+            <div class="div-grafico">
+                <canvas id="myChart"></canvas>
+                <section class="legenda">
+                    <div>
+                        <div class="cor cor1"></div><p>enviadas os solicitantes</p>
+                    </div>
+                    <div>
+                        <div class="cor cor2"></div><p>Foram produzidas</p>
+                    </div>
+                    <div>
+                        <div class="cor cor3"></div><p>Foram produzidas</p>
+                    </div>
+                    <div>
+                        <div class="cor cor4"></div><p>Falta solicitar</p>
+                    </div>
+                </section>
+            </div>
+        </section>
+    
+        <section class="carteiras">
+            <article>
+              <p>atividades</p>  
+            </article>
+            <div class="div-grafico">
+                <canvas id="myChart" class="grafico2"></canvas>
+                <section class="legenda">
+                    <div>
+                        <div class="cor cor1"></div><p>seguidores</p>
+                    </div>
+                    <div>
+                        <div class="cor cor2"></div><p>visualizações</p>
+                    </div>
+                    <div>
+                        <div class="cor cor3"></div><p>deixaram de seguir</p>
+                    </div>
+                   
+                </section>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <article>
+            <section>
+                <div class="iconWhats">
+                    <img src="./svg/whats.svg" width="20px" height="20px" alt="">
+                    <aside class="numero">(82)99999-9999</aside>
+                </div>
+
+                <div class="iconInsta">
+                    <img src="./svg/insta.svg" width="20px" height="20px" alt="">
+                    <aside class="instagram">@amigoDaLiteratura_</aside>
+                </div>
+
+                <div class="iconFace">
+                    <img src="./svg/face.svg" width="20px" height="20px" alt="">
+                    <aside class="Facebook">Amigos da Literatura</aside>
+                </div>
+            </section>
+
+            <p class="rodape">&copy Todos os direitos reservados</p>
+        </article>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+    <script src="grafico2.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E5DDF3;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #440070;
+    padding: 20px;
+    height: 20vh;
+    width: 100vw;
+}
+
+h1 {
+    color: #fff;
+    height: 20;
+    font-size: 40px;
+
+}
+
+.adl {
+    display: flex;
+    background-color: #B19CD9;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 1218px;
+    height: 179px;
+    margin-left: 300px;
+    margin-top: -85px;
+}
+
+.box-camera {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    background: #B19CD9;
+    width: 144.86px;
+    height: 130.65px;
+    margin: 5px;
+}
+
+.camera {
+    display: flex;
+    margin-left: 298px;
+    margin-top: 50px;
+}
+
+.np {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 18px;
+    font-size: 20px;
+    gap: 15px;
+}
+
+.carteiras {
+    width: 500px;
+    height: 350px;
+    margin-left: 298px;
+    margin-top: 150px;
+    background-color: #B19CD9;
+}
+article{
+    font-size: 20px;
+}
+.div-grafico{
+    width:  300px;
+    display: flex;
+    justify-content: space-between;
+}
+.legenda{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.graficos{
+    display: flex;
+    margin-left: -30px;
+}
+.cor{
+    width: 32px;
+    height: 35px;
+    border-radius: 50px;
+    margin-left: 24px;
+}
+.legenda > div{
+    display: flex;
+}
+.cor1{
+    background-color: #E5DDF3;
+}
+.cor2{
+    background-color: #6C5399;
+}
+.cor3{
+    background-color: #AF85F8;
+    
+}
+.cor4{
+    background-color: #8644FA;
+}
+
+footer{
+    background: #B19CD9;
+    padding: 1.7rem;
+    text-align: center;
+    color: #E5DDF3;
+    margin-top: 80px;
+}
+footer article{
+    margin-top: 7px;
+    padding: 10px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p, aside{
+    font-weight: bold;
+    font-size: 20px;
+}
+footer section div aside{
+    text-align: justify;
+}
+article{
+    padding: 10px;
+    margin-top: 7px;
+}
+aside{
+    color: #E5DDF3;
+    font-size: 20px;
+}
+footer article div{
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+}

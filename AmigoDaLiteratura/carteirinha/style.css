@@ -1,0 +1,1118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #E5DDF3;
+}
+
+main{
+    margin: 15rem;
+    margin-left: 15rem;
+}
+
+.colum{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    /* flex-wrap: wrap; */
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #440070;
+    height: 20vh;
+}
+
+.faixa{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+    width: 1200px;
+    height: 200px;
+    margin-top: 230px;
+    background-color: #B19CD9;
+}
+
+/* ÍNICIO REFERÊNCIA DE CARTEIRINHA */
+.reference{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.carteirinha{
+    background-color: #FFFFFF;
+    width: 20vw;
+    border-radius: 20px;
+}
+
+.icon{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #B19CD9;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.infos{
+    width: 250px;
+}
+.info1{
+    justify-content: center;
+    display: flex;
+}
+
+.infoNome{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #B19CD9;
+    border-radius: 5px;
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+    height: 40px;
+    margin: 15px;
+}
+
+.infoEmail{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #B19CD9;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+    height: 40px;
+    margin: 15px;
+}
+
+.info2{
+    justify-content: center;
+    display: flex;
+}
+
+.infoInsta{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #B19CD9;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 18vw;
+    height: 40px;
+    margin: 8px;
+}
+
+.id{
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+
+.infoIdade{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #B19CD9;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 7vw;
+    height: 35px;
+    margin: 10px;
+}
+
+.infoID{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #B19CD9;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 7vw;
+    height: 35px;
+    margin: 10px;
+}
+/* FIM REFERÊNCIA DE CARTEIRINHA */
+
+/* ÍNICIO DE CARTEIRINHA1 */
+.referencia1{
+    background-color: #E97777;
+    width: 20vw;
+    border-radius: 20px;
+    margin-top: 10rem;
+}
+
+.iconC1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #FF9F9F;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.info1C1{
+    justify-content: center;
+    display: flex;
+}
+
+.infoNomeC1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #FF9F9F;
+    border-radius: 5px;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    height: 35px;
+    margin: 15px;
+}
+
+.infoEmailC1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #FF9F9F;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    height: 35px;
+    margin: 15px;
+}
+
+.info2C1{
+    justify-content: center;
+    display: flex;
+}
+
+.infoInstaC1{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #FF9F9F;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 18vw;
+    height: 40px;
+    margin: 8px;
+}
+
+.idC1{
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+
+.infoIdadeC1{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #FF9F9F;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 7vw;
+    height: 35px;
+    margin: 10px;
+}
+
+.infoIDC1{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #FF9F9F;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 7vw;
+    height: 35px;
+    margin: 10px;
+}
+/* FIM DE CARTEIRINHA1 */
+
+/* ÍNICIO DE CARTEIRINHA2 */
+.referencia2{
+    background-color: #0081B4;
+    width: 20vw;
+    border-radius: 20px;
+    margin-top: 10rem;
+}
+
+.iconC2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #B2C8DF;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.info1C2{
+    justify-content: center;
+    display: flex;
+}
+
+.infoNomeC2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #B2C8DF;
+    border-radius: 5px;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    height: 35px;
+    margin: 15px;
+}
+
+.infoEmailC2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #B2C8DF;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    height: 35px;
+    margin: 15px;
+}
+
+.info2C2{
+    justify-content: center;
+    display: flex;
+}
+
+.infoInstaC2{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #B2C8DF;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 18vw;
+    height: 40px;
+    margin: 8px;
+}
+
+.idC2{
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+
+.infoIdadeC2{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #B2C8DF;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 7vw;
+    height: 35px;
+    margin: 10px;
+}
+
+.infoIDC2{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #B2C8DF;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 7vw;
+    height: 35px;
+    margin: 10px;
+}
+/* FIM DE CARTEIRINHA2 *
+
+/* ÍNICIO DE CARTEIRINHA3 */
+.referencia3{
+    background-color: #867070;
+    width: 20vw;
+    border-radius: 20px;
+    margin-top: 10rem;
+}
+
+.iconC3{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #D5B4B4;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.info1C3{
+    justify-content: center;
+    display: flex;
+}
+
+.infoNomeC3{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #D5B4B4;
+    border-radius: 5px;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    height: 35px;
+    margin: 15px;
+}
+
+.infoEmailC3{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #D5B4B4;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    height: 35px;
+    margin: 15px;
+}
+
+.info2C3{
+    justify-content: center;
+    display: flex;
+}
+
+.infoInstaC3{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #D5B4B4;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 18vw;
+    height: 40px;
+    margin: 8px;
+}
+
+.idC3{
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+
+.infoIdadeC3{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #D5B4B4;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 7vw;
+    height: 35px;
+    margin: 10px;
+}
+
+.infoIDC3{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #D5B4B4;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 7vw;
+    height: 35px;
+    margin: 10px;
+}
+/* FIM DE CARTEIRINHA3 *
+
+/* ÍNICIO DE CARTEIRINHA4 */
+.referencia4{
+    background-color: #F3C5C5;
+    width: 20vw;
+    border-radius: 20px;
+    margin-top: 10rem;
+}
+
+.iconC4{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #FFE6E6;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.info1C4{
+    justify-content: center;
+    display: flex;
+}
+
+.infoNomeC4{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #FFE6E6;
+    border-radius: 5px;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    height: 35px;
+    margin: 15px;
+}
+
+.infoEmailC4{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #FFE6E6;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    height: 35px;
+    margin: 15px;
+}
+
+.info2C4{
+    justify-content: center;
+    display: flex;
+}
+
+.infoInstaC4{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #FFE6E6;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 18vw;
+    height: 40px;
+    margin: 8px;
+}
+
+.idC4{
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+
+.infoIdadeC4{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #FFE6E6;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 7vw;
+    height: 35px;
+    margin: 10px;
+}
+
+.infoIDC4{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #FFE6E6;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 7vw;
+    height: 35px;
+    margin: 10px;
+}
+/* FIM DE CARTEIRINHA4 *
+
+/* ÍNICIO DE CARTEIRINHA5 */
+.referencia5{
+    background-color: #90C8AC;
+    width: 20vw;
+    border-radius: 20px;
+    margin-top: 10rem;
+}
+
+.iconC5{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #D6EFED;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.info1C5{
+    justify-content: center;
+    display: flex;
+}
+
+.infoNomeC5{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #D6EFED;
+    border-radius: 5px;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    height: 35px;
+    margin: 15px;
+}
+
+.infoEmailC5{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #D6EFED;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    height: 35px;
+    margin: 15px;
+}
+
+.info2C5{
+    justify-content: center;
+    display: flex;
+}
+
+.infoInstaC5{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #D6EFED;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 18vw;
+    height: 40px;
+    margin: 8px;
+}
+
+.idC5{
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+
+.infoIdadeC5{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #D6EFED;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 7vw;
+    height: 35px;
+    margin: 10px;
+}
+
+.infoIDC5{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #D6EFED;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 7vw;
+    height: 35px;
+    margin: 10px;
+}
+/* FIM DE CARTEIRINHA5 *
+
+/* ÍNICIO DE CARTEIRINHA6 */
+.referencia6{
+    background-color: #AAC4FF;
+    width: 20vw;
+    border-radius: 20px;
+    margin-top: 10rem;
+}
+
+.iconC6{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #D2DAFF;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.info1C6{
+    justify-content: center;
+    display: flex;
+}
+
+.infoNomeC6{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #D2DAFF;
+    border-radius: 5px;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    height: 35px;
+    margin: 15px;
+}
+
+.infoEmailC6{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #D2DAFF;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    height: 35px;
+    margin: 15px;
+}
+
+.info2C6{
+    justify-content: center;
+    display: flex;
+}
+
+.infoInstaC6{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #D2DAFF;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 18vw;
+    height: 40px;
+    margin: 8px;
+}
+
+.idC6{
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+
+.infoIdadeC6{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #D2DAFF;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 7vw;
+    height: 35px;
+    margin: 10px;
+}
+
+.infoIDC6{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #D2DAFF;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 7vw;
+    height: 35px;
+    margin: 10px;
+}
+/* FIM DE CARTEIRINHA6 *
+
+/* ÍNICIO DE CARTEIRINHA7 */
+.referencia7{
+    background-color: #FDD36A;
+    width: 20vw;
+    border-radius: 20px;
+    margin-top: 10rem;
+}
+
+.iconC7{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #FEFF86;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.info1C7{
+    justify-content: center;
+    display: flex;
+}
+
+.infoNomeC7{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #FEFF86;
+    border-radius: 5px;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    height: 35px;
+    margin: 15px;
+}
+
+.infoEmailC7{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #FEFF86;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    height: 35px;
+    margin: 15px;
+}
+
+.info2C7{
+    justify-content: center;
+    display: flex;
+}
+
+.infoInstaC7{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #FEFF86;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 18vw;
+    height: 40px;
+    margin: 8px;
+}
+
+.idC7{
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+
+.infoIdadeC7{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #FEFF86;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 7vw;
+    height: 35px;
+    margin: 10px;
+}
+
+.infoIDC7{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #FEFF86;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 7vw;
+    height: 35px;
+    margin: 10px;
+}
+/* FIM DE CARTEIRINHA7 *
+
+/* ÍNICIO DE CARTEIRINHA8 */
+.referencia8{
+    background-color: #A685E2;
+    width: 20vw;
+    border-radius: 20px;
+    margin-top: 10rem;
+}
+
+.iconC8{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #C9CBFF;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.info1C8{
+    justify-content: center;
+    display: flex;
+}
+
+.infoNomeC8{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #C9CBFF;
+    border-radius: 5px;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    height: 35px;
+    margin: 15px;
+}
+
+.infoEmailC8{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #C9CBFF;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    height: 35px;
+    margin: 15px;
+}
+
+.info2C8{
+    justify-content: center;
+    display: flex;
+}
+
+.infoInstaC8{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #C9CBFF;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 18vw;
+    height: 40px;
+    margin: 8px;
+}
+
+.idC8{
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+
+.infoIdadeC8{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #C9CBFF;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 7vw;
+    height: 35px;
+    margin: 10px;
+}
+
+.infoIDC8{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    background-color: #C9CBFF;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 7vw;
+    height: 35px;
+    margin: 10px;
+}
+/* FIM DE CARTEIRINHA8 *
+
+/* ÍNICIO DO BOTÃO */
+.botao{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+button{
+    background: #B19CD9;
+    cursor: pointer;
+    font-size: 30px;
+    width: 20vw;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    position: absolute;
+}
+/* FIM DO BOTÃO */
+
+/* INÍCIO CSS MAY */
+footer{
+    background: #B19CD9;
+    padding: 1.7rem;
+    text-align: center;
+
+    color: #E5DDF3;
+}
+
+footer article{
+    margin-top: 7px;
+    padding: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p, aside{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer section div aside{
+    text-align: justify;
+}
+
+article{
+    padding: 10px;
+    margin-top: 7px;
+}
+
+aside{
+    color: #E5DDF3;
+    font-size: 20px;
+}
+
+footer article div{
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+}
+/* FIM CSS MAY */
+
+@media (max-width: 500px){
+    main section{
+        width: 200px;
+    }
+    section div{
+        font-size: 5px;
+    }
+    p{
+        width: 200px;
+        font-size: 5px;
+    }
+    main{
+        flex-wrap: wrap;
+    }
+    article{
+        width: 500px;
+    }
+    .icon{
+        width: 100px;
+        height: 100px;
+    }
+    .botao{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 5rem;
+        font-size: 20px;
+    }
+    button{
+        width: 30vw;
+        height: 50px;
+        font-size: 20px;
+    }
+    footer{
+        width: 1200px;
+    }
+    footer article{
+        justify-content: space-around;
+        display: flex;
+    }
+}

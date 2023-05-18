@@ -121,7 +121,10 @@ input{
    border-radius: 30px;
    margin: 10px;  
 }
-
+.btn-criar a{
+   text-decoration: none;
+   color: #000;
+}
 .btn{
    display: flex;
    flex-direction: column;

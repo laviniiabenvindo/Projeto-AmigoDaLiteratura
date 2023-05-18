@@ -2,20 +2,21 @@ const form = document.getElementById('form');
 const campos = document.querySelectorAll('.required');
 const spans = document.querySelectorAll('.obrigatorio')
 const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
-const url = '../projetointer-main/projeto inter/Conteudo/conteudo.html'
+
 form.addEventListener('submit', (event)=>{
-    if(campos == ''){
     event.preventDefault();
     nameValidate();
     emailValidate();
-    }
-    else{
-        location.href = '../projetointer-main/projeto inter/Conteudo/conteudo.html'
+    if(campos){
+        setValidate();
     }
 });
-function openInNewTab(url){
-    const win = window.open(url)
-    win.focus()
+function erroValidate(){
+    nameValidate();
+    emailValidate();
+}
+function setValidate(){
+    window.location.href = "../projeto-jaco/1/index.html"
 }
 function setError(index){
     campos[index].style.border = '2px solid #ff0000';

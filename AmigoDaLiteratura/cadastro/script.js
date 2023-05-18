@@ -9,7 +9,11 @@ form.addEventListener('submit', (event)=>{
     emailValidate();
     mainPasswordValidate();
     comparePassword();
+    setValidate();
 });
+function setValidate(){
+    window.location.href = "../projetointer-main/projeto inter/Cadastro/cadastro.html"
+}
 function setError(index){
     campos[index].style.border = '2px solid #ff0000';
     spans[index].style.display = 'block';

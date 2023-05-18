@@ -148,6 +148,10 @@ h1{
    display: flex;
    text-align: left;
 }
+a{
+   text-decoration: none;
+   color: #FFFFFF;
+}
 
 /* INÍCIO CSS MAY */
 footer{
