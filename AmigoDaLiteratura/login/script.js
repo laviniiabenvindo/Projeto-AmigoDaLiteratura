@@ -7,14 +7,11 @@ form.addEventListener('submit', (event)=>{
     event.preventDefault();
     nameValidate();
     emailValidate();
-    if(campos){
+    
+    form.addEventListener('submit', ()=>{
         setValidate();
-    }
+    });
 });
-function erroValidate(){
-    nameValidate();
-    emailValidate();
-}
 function setValidate(){
     window.location.href = "../projeto-jaco/1/index.html"
 }
@@ -33,6 +30,7 @@ function nameValidate(){
     else{
         removeError(0);
     }
+    return
 }
 function emailValidate(){
     if(!emailRegex.test(campos[1].value)){
@@ -41,4 +39,5 @@ function emailValidate(){
     else{
         removeError(1);
     }
+    return
 }

@@ -185,26 +185,3 @@ footer article div{
         height: 100px;
         }
 }
-/* @media screen and (max-width:730px) {
-    section .adl{
-    background-color: #B19CD9;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column; 
-    width: 500px;
-    margin-top: 85px;
-    }
-    section, h1{
-        color: #fff;
-        height: 20px;
-        font-size: 20px;
-        text-align: center;
-    }
-    section, nav{
-        margin-top: 30px;
-        color: #fff;
-        display: flex;
-        justify-content: space-around;
-    }
-
-} */

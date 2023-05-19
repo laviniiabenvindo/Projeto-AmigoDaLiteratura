@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-color: #E5DDF3;
+   font-family: 'Inter', sans-serif;
+}
+
+.caixa{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #440070;
+   height: 20vh;
+}
+
+.faixa{
+   width: 1200px;
+   height: 200px;
+   margin-top: 220px;
+   text-align: center;
+   font-family: 'inter', sans-serif;
+   background-color: #B19CD9;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 40px;
+    margin: 15px;
+    color: #FFFFFF;
+}
+
+.nav{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   align-items: center;
+   margin: 50px;
+   color: #FFFFFF;
+}
+.nav-item{
+    font-weight: 400;
+    font-size: 40px;
+    margin: 15px;
+    color: #FFFFFF;
+}
+.infos{
+   display: grid;
+   margin-left: 25rem;
+}
+
+.boxIcon{
+   border-radius: 20%;
+   margin: 50px;
+   margin-top: 2%;
+   width: 10rem;
+   height: 10rem;
+}
+
+.icon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   border-radius: 20%;
+   background: #B19CD9;
+   width: 10rem;
+   height: 10rem;
+}
+
+.info{
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-left: 9px;
+}
+
+.boxInfo{
+   justify-content: center;
+   text-align: center;
+   display: flex;
+   justify-content: space-between;
+   margin: 40px;
+   width: 10rem;
+   height: 10rem;
+}
+
+h1{
+   font-size: 30px;
+   padding: 5px;
+}
+
+.informacoes{
+   text-align: center;
+}
+
+.tittleLivro{
+   justify-content: flex-start;
+   display: flex;
+   font-size: 30px;
+   margin: 5px;
+}
+
+.conteudo{
+   display: flex;
+   gap: 10rem;
+   margin-top: 10%;
+   gap: 20%;
+}
+
+.boxConteudo{
+   display: grid;
+   margin-bottom: 20%;
+}
+
+.livros{
+   display: flex;
+   gap: 80px;
+}
+
+.tittlePost{
+   font-size: 30px;  
+}
+
+.post{
+   justify-content: start;
+   display: flex;
+   text-align: left;
+}
+
+.posts{
+   margin-left: 25rem;
+}
+
+.boxPostagem{
+   margin-top: 5px;
+}
+
+.boxPost{
+   background: #B19CD9;
+   width: 500px;
+   height: 50px;
+   border-radius: 20px;
+   margin-top: 10px;
+}
+
+.arroba{
+   justify-content: start;
+   display: flex;
+   text-align: left;
+}
+a{
+   text-decoration: none;
+   color: #FFFFFF;
+}
+
+/* INÍCIO CSS MAY */
+footer{
+    background: #B19CD9;
+    padding: 1.7rem;
+    text-align: center;
+
+    color: #E5DDF3;
+}
+
+footer article{
+    margin-top: 7px;
+    padding: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.numero, .instagram, .facebook{
+    font-weight: bold;
+    font-size: 20px;
+    color: #E5DDF3;
+    font-size: 20px;
+}
+
+.rodape{
+    font-weight: bold;
+    font-size: 20px;
+    color: #E5DDF3;
+    font-size: 20px;
+}
+
+footer section div aside{
+    text-align: justify;
+}
+
+article{
+    padding: 10px;
+    margin-top: 7px;
+}
+
+footer article div{
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+}
+/* FIM CSS MAY */
+
+@media(max-width: 200px){
+    main section{
+        width: 200px;
+    }
+    section div{
+        width: 200px;
+        font-size: 20px;
+    }
+    p{
+        width: 200px;
+        font-size: 20px;
+    }
+}
