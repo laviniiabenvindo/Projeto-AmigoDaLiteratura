@@ -36,11 +36,15 @@ body{
 
 .nav{
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    text-align: center;
    align-items: center;
    margin: 50px;
    color: #FFFFFF;
+}
+
+.title{
+   font-size: 32px;
 }
 
 .infos{
